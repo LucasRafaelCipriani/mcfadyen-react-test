@@ -12,3 +12,17 @@ body {
   padding: 0;
   cursor: pointer;
 }
+
+.hidden-desktop {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .hidden-mobile {
+    display: none;
+  }
+
+  .hidden-desktop {
+    display: block;
+  }
+}

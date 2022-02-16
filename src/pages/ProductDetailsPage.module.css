@@ -10,3 +10,10 @@
   flex-grow: 1;
   max-width: 500px;
 }
+
+@media (max-width: 768px) {
+  .pdp-page {
+    flex-direction: column;
+    margin: 18px;
+  }
+}

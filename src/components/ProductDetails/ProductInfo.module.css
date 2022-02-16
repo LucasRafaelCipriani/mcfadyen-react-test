@@ -32,3 +32,9 @@
   color: #000000;
   margin: 0;
 }
+
+@media (max-width: 768px) {
+  .product-info .title {
+    font-size: 32px;
+  }
+}
