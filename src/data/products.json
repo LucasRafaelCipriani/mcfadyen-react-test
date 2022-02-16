@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "name": "JONATHAN SIMKHAI",
+    "description": "Lurex Linen Viscose Jacket in Conchiglia",
+    "skus": [
+      {
+        "id": "sku11",
+        "price": 225,
+        "images": [],
+        "sizes": ["xs", "s", "m", "l", "xxl"]
+      },
+      {
+        "id": "sku12",
+        "price": 250,
+        "images": [],
+        "sizes": ["s", "m", "l", "xl"]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "BLAZERS",
+    "description": "Lurex Linen Viscose Jacket in Conchiglia",
+    "skus": [
+      {
+        "id": "sku21",
+        "price": 225,
+        "images": [],
+        "sizes": ["xs", "s", "m", "l", "xxl"]
+      },
+      {
+        "id": "sku22",
+        "price": 250,
+        "images": [],
+        "sizes": ["s", "m", "l", "xl"]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "VISCOSE",
+    "description": "Lurex Linen Viscose Jacket in Conchiglia",
+    "skus": [
+      {
+        "id": "sku31",
+        "price": 225,
+        "images": [],
+        "sizes": ["xs", "s", "m", "l", "xxl"]
+      },
+      {
+        "id": "sku32",
+        "price": 250,
+        "images": [],
+        "sizes": ["s", "m", "l", "xl"]
+      }
+    ]
+  }
+]
