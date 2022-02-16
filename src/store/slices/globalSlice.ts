@@ -10,7 +10,7 @@ const globalSlice = createSlice({
   name: 'global',
   initialState,
   reducers: {
-    saveSize(state, payload) {},
+    saveSize(state, action) {},
   },
 });
 

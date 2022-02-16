@@ -1,0 +1,12 @@
+.pdp-page {
+  display: flex;
+  flex-direction: row;
+  column-gap: 50px;
+  justify-content: space-between;
+  margin: 21px 70px 0 70px;
+}
+
+.pdp-page section {
+  flex-grow: 1;
+  max-width: 500px;
+}

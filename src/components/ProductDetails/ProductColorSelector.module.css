@@ -1,0 +1,38 @@
+.color-selector {
+  margin-bottom: 25px;
+}
+
+.color-selector .title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.color-selector .title span {
+  font-weight: bold;
+}
+
+.color-selector .color-list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  column-gap: 5px;
+}
+
+.color-selector .color-list li {
+  cursor: pointer;
+  border: 1px solid #e5e5e5;
+  padding: 5px;
+}
+
+.color-selector .color-list li.active {
+  border: 1px solid #000;
+}
+
+.color-selector .color-list li img {
+  width: 52px;
+  height: 100%;
+}

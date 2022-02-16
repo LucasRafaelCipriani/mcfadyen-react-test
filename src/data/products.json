@@ -6,14 +6,28 @@
     "skus": [
       {
         "id": "sku11",
+        "name": "Conchiglia",
         "price": 225,
-        "images": [],
+        "images": [
+          "image1.png",
+          "image2.png",
+          "image3.png",
+          "image4.png",
+          "image5.png"
+        ],
         "sizes": ["xs", "s", "m", "l", "xxl"]
       },
       {
         "id": "sku12",
+        "name": "Gray",
         "price": 250,
-        "images": [],
+        "images": [
+          "image1.png",
+          "image2.png",
+          "image3.png",
+          "image4.png",
+          "image5.png"
+        ],
         "sizes": ["s", "m", "l", "xl"]
       }
     ]
@@ -25,14 +39,28 @@
     "skus": [
       {
         "id": "sku21",
+        "name": "Conchiglia",
         "price": 225,
-        "images": [],
+        "images": [
+          "image1.png",
+          "image2.png",
+          "image3.png",
+          "image4.png",
+          "image5.png"
+        ],
         "sizes": ["xs", "s", "m", "l", "xxl"]
       },
       {
         "id": "sku22",
+        "name": "Gray",
         "price": 250,
-        "images": [],
+        "images": [
+          "image1.png",
+          "image2.png",
+          "image3.png",
+          "image4.png",
+          "image5.png"
+        ],
         "sizes": ["s", "m", "l", "xl"]
       }
     ]
@@ -44,14 +72,28 @@
     "skus": [
       {
         "id": "sku31",
+        "name": "Conchiglia",
         "price": 225,
-        "images": [],
+        "images": [
+          "image1.png",
+          "image2.png",
+          "image3.png",
+          "image4.png",
+          "image5.png"
+        ],
         "sizes": ["xs", "s", "m", "l", "xxl"]
       },
       {
         "id": "sku32",
+        "name": "Gray",
         "price": 250,
-        "images": [],
+        "images": [
+          "image1.png",
+          "image2.png",
+          "image3.png",
+          "image4.png",
+          "image5.png"
+        ],
         "sizes": ["s", "m", "l", "xl"]
       }
     ]

@@ -1,0 +1,33 @@
+.add-to-cart .add-to-cart-btn {
+  background: #000000;
+  text-transform: uppercase;
+  border: 0.999053px solid #000000;
+  box-sizing: border-box;
+  border-radius: 100px;
+  color: #fff;
+  padding: 15px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  cursor: pointer;
+}
+
+.add-to-cart .add-to-cart-btn:hover {
+  background: #ccc;
+  border: 0.999053px solid #ccc;
+}
+
+.add-to-cart .promotion {
+  margin-top: 24px;
+}
+
+.add-to-cart .promotion p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 120%;
+  color: #000000;
+  margin-top: 17px;
+}

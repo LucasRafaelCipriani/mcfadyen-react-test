@@ -1,0 +1,42 @@
+.size-selector {
+  margin-bottom: 25px;
+}
+
+.size-selector .size-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.size-selector .size-info h3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+.size-selector .size-info h3 span {
+  font-weight: bold;
+}
+
+.size-selector .size-info button {
+  text-decoration: underline;
+}
+
+.size-selector .sizes {
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 5px;
+  list-style: none;
+}
+
+.size-selector .sizes li {
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 100px;
+  padding: 8px 35px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
