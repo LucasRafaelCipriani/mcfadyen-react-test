@@ -1,6 +1,8 @@
 import { createSlice } from '@reduxjs/toolkit';
+import DUMMY_CATEGORIES from '../../data/categories.json';
 
 const initialState = {
+  categories: DUMMY_CATEGORIES,
   selectedSize: '',
 };
 

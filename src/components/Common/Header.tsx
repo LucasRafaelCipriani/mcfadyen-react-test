@@ -1,7 +1,22 @@
 import React from 'react';
+import MegaMenu from './MegaMenu';
+import RightSideHeader from './RightSideHeader';
+
+import classes from './Header.module.css';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
-  return <div>Header</div>;
+  return (
+    <header className={classes.header}>
+      <h1 className={classes.title}>
+        <Link to="/">MY COMPANY.COM</Link>
+      </h1>
+      <nav>
+        <MegaMenu />
+      </nav>
+      <RightSideHeader />
+    </header>
+  );
 };
 
 export default Header;

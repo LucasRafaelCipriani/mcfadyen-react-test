@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "The Edit",
+    "url": "/the-edit"
+  },
+  {
+    "id": 2,
+    "name": "New Arrivals",
+    "url": "/new-arrivals"
+  },
+  {
+    "id": 3,
+    "name": "Designers",
+    "url": "/designers"
+  },
+  {
+    "id": 4,
+    "name": "Clothing",
+    "url": "/clothing"
+  },
+  {
+    "id": 5,
+    "name": "Shoes",
+    "url": "/shoes"
+  },
+  {
+    "id": 6,
+    "name": "Bags",
+    "url": "/bags"
+  },
+  {
+    "id": 7,
+    "name": "Accessories",
+    "url": "/accessories"
+  },
+  {
+    "id": 8,
+    "name": "Jewelry",
+    "url": "/jewelry"
+  },
+  {
+    "id": 9,
+    "name": "Beauty",
+    "url": "/beauty"
+  },
+  {
+    "id": 10,
+    "name": "Home",
+    "url": "/"
+  }
+]

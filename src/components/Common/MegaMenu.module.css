@@ -1,0 +1,21 @@
+.mega-menu {
+  list-style: none;
+  display: flex;
+  column-gap: 25px;
+  padding-left: 0;
+  margin: 0;
+}
+
+.mega-menu-link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.mega-menu-link.active {
+  text-decoration: underline;
+}
