@@ -7,7 +7,7 @@ import ProductInfo from './ProductInfo';
 import ProductSizeSelector from './ProductSizeSelector';
 
 const ProductRightInfo = () => {
-  const { selectedProduct, selectedSKU } = useSelector(
+  const { selectedProduct, selectedSKU, selectedSize } = useSelector(
     (state: any) => state.productSlice
   );
 
@@ -20,7 +20,7 @@ const ProductRightInfo = () => {
       <ProductInfo product={selectedProduct} sku={selectedSKU} />
       <ProductColorSelector product={selectedProduct} sku={selectedSKU} />
       <ProductSizeSelector sku={selectedSKU} />
-      <ProductAddToCart />
+      <ProductAddToCart sku={selectedSKU} size={selectedSize} />
     </section>
   );
 };

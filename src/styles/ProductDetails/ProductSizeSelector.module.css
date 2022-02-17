@@ -47,6 +47,7 @@
   cursor: pointer;
 }
 
+.size-selector .sizes li.selected,
 .size-selector .sizes li:hover {
   background: #000;
   border-color: #000;
