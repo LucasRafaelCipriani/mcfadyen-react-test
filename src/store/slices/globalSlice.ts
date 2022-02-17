@@ -3,15 +3,12 @@ import DUMMY_CATEGORIES from '../../data/categories.json';
 
 const initialState = {
   categories: DUMMY_CATEGORIES,
-  selectedSize: '',
 };
 
 const globalSlice = createSlice({
   name: 'global',
   initialState,
-  reducers: {
-    saveSize(state, action) {},
-  },
+  reducers: {},
 });
 
 export const globalReducer = globalSlice.reducer;

@@ -6,7 +6,7 @@ import accountSVG from '../../assets/Account.svg';
 import searchSVG from '../../assets/Search.svg';
 import navSVG from '../../assets/Nav.svg';
 
-import classes from './RightSideHeader.module.css';
+import classes from '../../styles/Common/RightSideHeader.module.css';
 
 const RightSideHeader = () => {
   return (

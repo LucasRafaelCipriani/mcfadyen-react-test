@@ -11,9 +11,20 @@
   max-width: 500px;
 }
 
+.pdp-aside {
+  max-width: 1000px;
+  margin: 100px auto 80px;
+}
+
 @media (max-width: 768px) {
   .pdp-page {
     flex-direction: column;
     margin: 18px;
+  }
+
+  .pdp-aside {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    padding: 0 18px;
   }
 }

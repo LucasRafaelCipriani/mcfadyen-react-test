@@ -38,6 +38,40 @@
   box-sizing: border-box;
   border-radius: 100px;
   padding: 8px 35px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 100%;
+  text-align: center;
   text-transform: uppercase;
   cursor: pointer;
+}
+
+.size-selector .sizes li:hover {
+  background: #000;
+  border-color: #000;
+  color: #fff;
+}
+
+.size-selector .sizes li.not-available {
+  color: #a6a6a6;
+  position: relative;
+  cursor: not-allowed;
+}
+
+.size-selector .sizes li.not-available:hover {
+  background: #fff;
+  border-color: #e5e5e5;
+  color: #a6a6a6;
+}
+
+.size-selector .sizes li.not-available::before {
+  content: '';
+  position: absolute;
+  width: 30px;
+  top: 15px;
+  height: 1px;
+  background-color: #a6a6a6;
+  transform: rotate(-16.26deg);
+  left: 25px;
 }

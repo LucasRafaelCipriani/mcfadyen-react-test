@@ -1,7 +1,7 @@
 import React from 'react';
 import rightArrowSVG from '../../assets/Right.svg';
 
-import classes from './ProductAddToCart.module.css';
+import classes from '../../styles/ProductDetails/ProductAddToCart.module.css';
 
 const ProductAddToCart = () => {
   return (

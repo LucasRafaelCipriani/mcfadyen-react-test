@@ -1,0 +1,23 @@
+.links-section {
+  margin-bottom: 120px;
+}
+
+.links-section .links {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  column-gap: 25px;
+  justify-content: center;
+}
+
+.links-section .links li a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: center;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: #000000;
+}

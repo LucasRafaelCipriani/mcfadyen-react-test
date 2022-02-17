@@ -1,0 +1,42 @@
+.pdp-left-info {
+}
+
+.pdp-left-info .topics {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  column-gap: 25px;
+  flex-wrap: nowrap;
+}
+
+.pdp-left-info .topics li {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #767676;
+  cursor: pointer;
+}
+
+.pdp-left-info .topics li:hover,
+.pdp-left-info .topics li.active {
+  color: #000;
+  font-weight: bold;
+}
+
+.pdp-left-info .topic-data,
+.pdp-left-info .extra-info {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #000000;
+}
+
+.pdp-left-info .extra-info button {
+  text-transform: uppercase;
+  text-decoration: underline;
+  cursor: pointer;
+}

@@ -1,0 +1,20 @@
+.carousel {
+  max-width: 600px;
+  max-height: 675px;
+  position: relative;
+}
+
+.carousel .like {
+  position: absolute;
+  width: 20px;
+  z-index: 999;
+  right: 0;
+  background: white;
+  top: 15px;
+  cursor: pointer;
+}
+
+.carousel img {
+  width: 100%;
+  max-height: 675px;
+}

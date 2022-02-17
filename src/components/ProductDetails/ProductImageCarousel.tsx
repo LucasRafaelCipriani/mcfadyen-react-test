@@ -5,7 +5,8 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-import classes from './ProductImageCarousel.module.css';
+import heartSVG from '../../assets/Heart.svg';
+import classes from '../../styles/ProductDetails/ProductImageCarousel.module.css';
 
 const ProductImageCarousel = () => {
   const { selectedProduct, selectedSKU } = useSelector(
@@ -18,7 +19,7 @@ const ProductImageCarousel = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
   };
 
   if (!selectedProduct || !selectedSKU) {
@@ -27,6 +28,9 @@ const ProductImageCarousel = () => {
 
   return (
     <section className={classes.carousel}>
+      <span className={classes.like}>
+        <img src={heartSVG} alt="Favorite Product" />
+      </span>
       <Slider {...settings}>
         {selectedSKU.images.map((image: string, index: number) => (
           <div key={index}>

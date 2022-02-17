@@ -5,6 +5,7 @@ const initialState = {
   products: DUMMY_PRODUCTS,
   selectedProduct: null,
   selectedSKU: null,
+  selectedSize: '',
 };
 
 const productSlice = createSlice({
@@ -16,6 +17,9 @@ const productSlice = createSlice({
     },
     selectSKU(state, action) {
       state.selectedSKU = action.payload;
+    },
+    selectSize(state, action) {
+      state.selectedSize = action.payload;
     },
   },
 });

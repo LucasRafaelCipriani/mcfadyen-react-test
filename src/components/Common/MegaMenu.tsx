@@ -2,7 +2,7 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 
-import classes from './MegaMenu.module.css';
+import classes from '../../styles/Common/MegaMenu.module.css';
 
 const MegaMenu = () => {
   const { categories } = useSelector((state: any) => state.globalSlice);

@@ -1,0 +1,53 @@
+.editor-section {
+  text-align: center;
+}
+
+.editor-section .title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.editor-section .note {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 140%;
+  text-align: center;
+  color: #000000;
+}
+
+.editor-section .author {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 120%;
+  position: relative;
+  width: max-content;
+  margin: auto;
+}
+
+.editor-section .author::before {
+  content: '';
+  width: 30px;
+  height: 1px;
+  top: 50%;
+  background: #000;
+  position: absolute;
+  right: 103%;
+}
+
+.editor-section .author span {
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .editor-section .note {
+    font-size: 20px;
+  }
+}

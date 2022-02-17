@@ -1,22 +1,14 @@
 import React from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { productActions } from '../../store/slices/productSlice';
 
-import classes from './ProductColorSelector.module.css';
+import classes from '../../styles/ProductDetails/ProductColorSelector.module.css';
 
-const ProductColorSelector = () => {
+const ProductColorSelector = ({ product, sku }: any) => {
   const dispatch = useDispatch();
 
-  const { selectedProduct, selectedSKU } = useSelector(
-    (state: any) => state.productSlice
-  );
-
-  if (!selectedProduct || !selectedSKU) {
-    return <p>Loading...</p>;
-  }
-
   const selectSKUHandler = (id: any) => {
-    const foundSKU = selectedProduct.skus.find((sku: any) => sku.id === id);
+    const foundSKU = product.skus.find((sk: any) => sk.id === id);
 
     if (foundSKU) {
       dispatch(productActions.selectSKU(foundSKU));
@@ -26,18 +18,18 @@ const ProductColorSelector = () => {
   return (
     <div className={classes['color-selector']}>
       <h3 className={classes['title']}>
-        <span>COLOR</span> {selectedSKU.name}
+        <span>COLOR</span> {sku.name}
       </h3>
       <ul className={classes['color-list']}>
-        {selectedProduct.skus.map((sku: any) => (
+        {product.skus.map((sk: any) => (
           <li
-            key={sku.id}
-            onClick={() => selectSKUHandler(sku.id)}
-            className={sku.id === selectedSKU.id ? classes['active'] : ''}
+            key={sk.id}
+            onClick={() => selectSKUHandler(sk.id)}
+            className={sku.id === sk.id ? classes['active'] : ''}
           >
             <img
-              src={`${process.env.PUBLIC_URL}/assets/${sku.images[0]}`}
-              alt={sku.name}
+              src={`${process.env.PUBLIC_URL}/assets/${sk.images[0]}`}
+              alt={sk.name}
             />
           </li>
         ))}
